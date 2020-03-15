@@ -1,0 +1,19 @@
+@import './../main/variables.scss';
+
+/* make responsive */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(255,255,255,.90);
+  color: $primary;
+  font-family: $primary-font;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0 0 500px 50px rgba(255,255,255,.85);
+  box-shadow: 0 0 500px 50px rgba(255,255,255,.85);
+}

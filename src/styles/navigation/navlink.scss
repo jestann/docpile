@@ -1,0 +1,13 @@
+@import './../main/variables.scss';
+
+.navlink {
+  color: white;
+}
+
+.navlink:hover,
+.navlink:focus,
+.navlink:active {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

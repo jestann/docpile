@@ -1,0 +1,32 @@
+@import 'variables.scss';
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: $sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 1.2rem;
+  color: $med-grey;
+  margin: 3% 0% !important;
+}
+
+.app {
+  position: relative;
+}
+
+.main {
+  margin-top: 18rem;
+  margin-bottom: 15rem;
+}
+
+.clear {
+  clear: both;
+}
+

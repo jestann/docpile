@@ -1,0 +1,117 @@
+@import './../main/variables.scss';
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-image {
+  text-align: center;
+}
+
+.button-image-left {
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.button-label-img {
+  float: right;
+  padding-top: 4px;
+}
+
+.button-link {
+  display: inline-block;
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  color: inherit;
+}
+
+.button.submit, .button.cancel, .button.reverse, .button.static, button.right {
+  float: left;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.button.right {
+  float: right !important;
+}
+
+.button.submit {
+  background-color: $primary;
+}
+
+.button.submit:hover {
+  background-color: $primary-light;
+}
+
+.button.reverse {
+  background-color: $primary-light;
+}
+
+.button.reverse:hover {
+  background-color: $primary;
+}
+
+.button.cancel {
+  margin-left: 1rem;
+  background-color: $med-grey;
+}
+
+.button.cancel:hover {
+  background-color: $light-grey;
+}
+
+.button.static {
+  background-color: $med-grey;
+}
+
+.button.inline {
+  background-color: $med-grey;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  padding-bottom: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.button.inline:hover {
+  color: white;
+  background-color: $light-grey;
+}
+
+.button.narrative {
+  background-color: $light-grey;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  padding-bottom: 10px;
+  margin: 2rem;
+  margin-left: 0;
+}
+
+.button.narrative:hover {
+  background-color: $primary-light;
+}
+
+.button.hover-bold:hover {
+  font-weight: bold;
+}
+
+.button.hover-bold .button-label::after { /* protects positioning during hover-bold */
+  display: block;
+  content: attr(content);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
